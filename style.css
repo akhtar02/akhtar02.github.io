@@ -27,6 +27,7 @@
     position: fixed;
     left:20px;
     bottom: 20px;
+    z-index:100;
 }
 .top{
     position: fixed;
@@ -36,10 +37,25 @@
     right:20px;
     bottom: 20px;
     border-radius: 50%;
+    z-index:100;
 }
 .top i{
     font-size: 30px;
 }
+.top a{
+   text-decoration: none;
+   color: #333333; 
+}
+.top a:hover{
+     color: #fff; 
+  }
+ 
+
+.top:hover{
+   background: #333333;
+    color: #fff !important; 
+ }
+
 .profile-title{
     margin-top: 120px !important;
 }
@@ -74,40 +90,12 @@
     border: 1px solid #efefef;
 }
 
-
-
-
-
-
-/* .profile-btn button a{
-    background-color: #efefef !important;
-    color: #333333;
-   
-  
-    border: 1px solid #efefef;
-    border-radius: 30px;
-    outline: none;
-    text-decoration: none;
-    
-}
-
-.profile-btn button:focus{
-   
-    outline: none !important;
-}
-
-.profile-btn a:hover{
-   background: #333333 !important;
-    outline: none !important;
-    color: #fff !important;
-    border: 1px solid #333333;
-} */
-
 .skill-name h3{
     padding: 20px 30px;
     border-radius: 5px;
     background: red;
 }
+
 
 .card-body a{
     text-decoration: none;
@@ -209,11 +197,46 @@
     font-weight: 600;
 }
 
+.about-title{
+    margin: 40px 20px 20px 20px ;
+}
 .about-img{
     height: 100px;
 }
 .card{
+    border: none;
     box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 7px 0px rgba(0,0,0,0.75);
 }
+
+.banner-img img{
+    width: 500px;
+}
+
+@media only screen and (max-width: 578px) {
+   .banner-img img{
+    
+       width: 300px !important;
+   }
+   .skill-name h3{
+       margin: 20px 20px;
+   }
+   .card{
+      width: 19rem !important; 
+   }
+   .social-icon{
+    margin: 0px 10px;
+    border-radius: 10px;
+    padding:10px 10px;
+}
+.contact-box{
+    margin: 10px;
+    background:#fff;
+    border-radius: 10px;
+}
+.contact-box .btn-primary{
+    display: block;
+    margin:  0 auto !important;
+}
+  }
