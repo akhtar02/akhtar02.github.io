@@ -22,10 +22,29 @@
 .navbar-toggler{
     margin-right: 50px !important;
 }
+
+.whatsapp{
+    position: fixed;
+    left:20px;
+    bottom: 20px;
+}
+.top{
+    position: fixed;
+    padding: 12px 15px;
+    background: #efefef;
+    color: #fff;
+    right:20px;
+    bottom: 20px;
+    border-radius: 50%;
+}
+.top i{
+    font-size: 30px;
+}
 .profile-title{
     margin-top: 120px !important;
 }
-.profile-btn button{
+
+.profile-btn a {
     background-color: #efefef !important;
     color: #333333;
     padding: 10px 30px;
@@ -33,6 +52,43 @@
     border: 1px solid #efefef;
     border-radius: 30px;
     outline: none;
+    text-decoration: none;
+}
+
+.profile-btn a:hover{
+   background: #333333 !important;
+    outline: none !important;
+    color: #fff !important;
+    border: 1px solid #333333;
+}
+
+.profile-btn .resume-btn {
+    color: #fff !important;
+    background-color: #333333 !important;
+    border: 1px solid #333333;
+}
+
+.profile-btn .resume-btn:hover {
+    color: #333333 !important;
+    background-color: #efefef !important;
+    border: 1px solid #efefef;
+}
+
+
+
+
+
+
+/* .profile-btn button a{
+    background-color: #efefef !important;
+    color: #333333;
+   
+  
+    border: 1px solid #efefef;
+    border-radius: 30px;
+    outline: none;
+    text-decoration: none;
+    
 }
 
 .profile-btn button:focus{
@@ -40,12 +96,12 @@
     outline: none !important;
 }
 
-.profile-btn button:hover{
+.profile-btn a:hover{
    background: #333333 !important;
     outline: none !important;
     color: #fff !important;
     border: 1px solid #333333;
-}
+} */
 
 .skill-name h3{
     padding: 20px 30px;
