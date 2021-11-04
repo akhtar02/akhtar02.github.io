@@ -217,7 +217,7 @@
 @media only screen and (max-width: 578px) {
    .banner-img img{
     
-       width: 300px !important;
+       width: 280px !important;
    }
    .skill-name h3{
        margin: 20px 20px;
@@ -243,5 +243,22 @@
     margin-top: 50px !important;
     margin-bottom: 30px !important;
     padding: 10px 10px;
+}
+.about-p{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.title {
+    text-align: center;
+}
+.pages{
+    text-align: center;
+}
+.social{
+    text-align: center !important;
+}
+.footer-icon li {
+    padding-left: 0px !important;
+    margin-left: 0 !important;
 }
   }
