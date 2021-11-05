@@ -106,13 +106,25 @@
 .about-title h1{
     font-size: 42px;
     line-height: 30px;
-    font-size: 500;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.skill-section h1{
+.about-section h2{
     font-size: 42px;
     line-height: 30px;
-    font-size: 500;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.skill-section h2{
+    font-size: 42px;
+    line-height: 30px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .profile-btn a {
     background-color: #efefef !important;
@@ -150,7 +162,9 @@
     font-size: 20px;
     background: #efefef;
     color: #333333;
+    font-weight: 400;
 }
+
 
 .skill-name h3:hover{
     padding: 12px 12px;
@@ -304,7 +318,7 @@
     margin:  0 auto !important;
 }
 .profile-title{
-    margin-top: 100px !important;
+    margin-top: 80px !important;
     margin-bottom: 30px !important;
     padding: 10px 10px;
 }
@@ -312,6 +326,24 @@
   line-height: 30px;
   font-size: 28px;
   font-weight: 500;
+}
+
+.about-title h1{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.about-section h2{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.skill-section h1{
+    font-size: 28px;
+    line-height: 30px;
+    font-weight: 500;
 }
 
 .profile-title span{
@@ -337,4 +369,54 @@
     padding-left: 0px !important;
     margin-left: 0 !important;
 }
+.footer{
+    margin-top: 50px;
+    padding-top: 30px;
+    background: #333333;
+}
+.footer h2{
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    color: #fff;
+}
+.footer h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+.footer h2 , h3{
+    padding: 10px;
+    color: #fff;
+}
+.footer .page-links li{
+ list-style: none;
+}
+.footer .page-links li a{
+    text-decoration: none;
+    color: #fff;
+   
+   }
+
+.footer-icon li{
+    display: inline;
+}
+.footer-icon .fab {
+    color: #333333;
+    padding: 10px;
+    border-radius: 50%;
+    background: #efefef;
+    font-size: 20px;
+
+}
+
+.main-footer p {
+    color: #fff;
+}
+
+.main-footer span {
+    color: #efefef;
+    font-weight: 600;
+}
+
+
   }
