@@ -18,11 +18,10 @@
     background: #efefef !important;
   
 }
+
 .navbar-collapse{
     text-align: center;
 }
-
-
 
 .navbar-nav{
     margin-left: auto;
@@ -44,6 +43,20 @@
 .navbar-toggler{
     margin-right: 50px !important;
 }
+
+.profile-title h1{
+    line-height: 30px;
+    font-size: 42px;
+    font-weight: 500;
+  }
+  
+  .profile-title span{
+      line-height: 30px;
+      
+      font-weight: 500;
+      color: blue;
+    }
+
 
 .whatsapp{
     position: fixed;
@@ -79,9 +92,28 @@
  }
 
 .profile-title{
-    margin-top: 120px !important;
+    margin-top: 140px !important;
+}
+.profile-title p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.about-title p{
+    font-size: 16px;
+    line-height: 30px;
 }
 
+.about-title h1{
+    font-size: 42px;
+    line-height: 30px;
+    font-size: 500;
+}
+
+.skill-section h1{
+    font-size: 42px;
+    line-height: 30px;
+    font-size: 500;
+}
 .profile-btn a {
     background-color: #efefef !important;
     color: #333333;
@@ -113,11 +145,21 @@
 }
 
 .skill-name h3{
-    padding: 20px 30px;
+    padding: 15px 15px;
     border-radius: 5px;
-    background: red;
+    font-size: 20px;
+    background: #efefef;
+    color: #333333;
 }
 
+.skill-name h3:hover{
+    padding: 12px 12px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #efefef;
+    background: #333333;
+    cursor: pointer;
+}
 
 .card-body a{
     text-decoration: none;
@@ -262,10 +304,22 @@
     margin:  0 auto !important;
 }
 .profile-title{
-    margin-top: 50px !important;
+    margin-top: 100px !important;
     margin-bottom: 30px !important;
     padding: 10px 10px;
 }
+.profile-title h1{
+  line-height: 30px;
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.profile-title span{
+    line-height: 30px;
+    
+    font-weight: 500;
+    color: blue;
+  }
 .about-p{
     display: flex;
     flex-direction: column-reverse;
