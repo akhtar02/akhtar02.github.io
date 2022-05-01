@@ -96,6 +96,10 @@
     margin-right: 50px !important;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgba(0,0,0,.55) !important;
+}
+
 .profile-title h1{
     line-height: 30px;
     font-size: 42px;
